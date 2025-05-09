@@ -3,14 +3,34 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ParentComponent } from './parent/parent.component';
+import { HomeComponent } from './home/home.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { CalculatorComponent } from './calculator/calculator.component';
+import { RectangleComponent } from './rectangle/rectangle.component';
+import { CircleComponent } from './circle/circle.component';
+import { BMIComponent } from './bmi/bmi.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ParentComponent,
+    HomeComponent,
+    WelcomeComponent,
+    CalculatorComponent,
+    RectangleComponent,
+    CircleComponent,
+    BMIComponent,
+    DataBindingComponent,
+  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

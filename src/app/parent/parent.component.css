@@ -1,0 +1,7 @@
+.parent {width:100vw;height:100vh; background-color: aqua; display: flex;}
+.left{ width:20%; height: 100% ; background-color: rgb(57, 132, 197);}
+.right{width: 80%;height:100%; background-color: white;}
+.button{
+  justify-content: center; align-items: center;
+}
+   

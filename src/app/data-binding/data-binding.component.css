@@ -1,0 +1,12 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
